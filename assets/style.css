@@ -569,6 +569,30 @@ hr {
   position: relative;
 }
 
+#beforeImg {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#beforeImg label {
+  width: 173px;
+  height: 36px;
+  border-radius: 50px;
+  background: #cbd6dc;
+  color: #306685;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.fa-image {
+  font-size: 50px;
+  color: #B9C5CC;
+
+}
+
 @media (max-width: 1024px) {
   #bouttonEdit {
     right: 25%;
